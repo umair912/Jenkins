@@ -7,10 +7,6 @@ pipeline{
     choice(name: 'BROWSER', choices: ['chrome','edge','firefox'], description: "Chose Browser")
   }
 
-  options{
-    ansiColor('xtrem')
-  }
-
   stages{
     stage('Building'){
       echo "Building the application"
