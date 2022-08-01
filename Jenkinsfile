@@ -10,6 +10,7 @@ pipeline{
   stages{
     stage('Testing'){
       steps{
+        sh "PATH=/sbin:/usr/sbin:/usr/bin:/usr/local/bin"
         sh "npm install"
         sh "npx cypress run --browser ${BROWSER} --spec ${SPEC}"
       }
