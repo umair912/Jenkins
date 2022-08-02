@@ -19,7 +19,7 @@ pipeline {
           source ~/.nvm/nvm.sh
           nvm install 14.0.0
           npm install
-          npm run test
+          npm rum cy:run
         '''
       }
     }
