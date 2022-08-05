@@ -4,15 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "NO_COLOR=1 cypress open --reporter mochawesome",
+=======
+    "cy:open": "cypress open",
+>>>>>>> 3b6035ed79d23980c0f0af6b2adcf0ebf7b1d6da
     "cy:run": "NO_COLOR=1 cypress run --reporter mochawesome"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+<<<<<<< HEAD
     "cypress": "^10.3.1",
+=======
+    "cypress": "^10.3.1"
+  },
+  "dependencies": {
+>>>>>>> 3b6035ed79d23980c0f0af6b2adcf0ebf7b1d6da
     "cypress-mochawesome-reporter": "^3.2.0"
   }
 }
